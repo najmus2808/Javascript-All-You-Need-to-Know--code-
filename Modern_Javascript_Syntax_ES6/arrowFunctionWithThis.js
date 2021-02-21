@@ -1,3 +1,5 @@
+// Arrow function don't care about "this" keyword ......Arrow function use korle this er man change hoi na...
+
 /** In this code "this" keyword don't get it's proper value 
 because forEach build in function change the value of "this" 
 that's why we cann't get expected output **/
