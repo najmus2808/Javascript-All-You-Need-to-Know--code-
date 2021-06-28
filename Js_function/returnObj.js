@@ -1,7 +1,7 @@
-function returnObj(name, email){
+function returnObj(name, email) {
     const obj = {
-        name:name,
-        email:email
+        name: name,
+        email: email
     }
 
     return obj
