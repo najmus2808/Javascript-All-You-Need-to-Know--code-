@@ -1,3 +1,8 @@
+//  Higher order Function
+//  we can pass function as an arguments 
+//  we can return functions from another function 
+
+
 function add(num1, num2) {
     return num1 + num2
 }
