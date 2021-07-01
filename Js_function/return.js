@@ -5,5 +5,5 @@ function greeting(greet) {
   return person;
 }
 
-var result = greeting("Hello")
-console.log(result("Sakib"))
+var result = greeting("Hello");
+console.log(result("Sakib"));
