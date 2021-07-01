@@ -9,14 +9,12 @@
 // n! = (n-1)! * n
 // n! = n * (n-1)
 
-
-function factorialRecursive(n){
-    if(n == 0){
-        return 1;
-    }
-    else{
-        return n * factorialRecursive(n - 1);
-    }
+function factorialRecursive(n) {
+  if (n == 0) {
+    return 1;
+  } else {
+    return n * factorialRecursive(n - 1);
+  }
 }
 
 var result = factorialRecursive(10);

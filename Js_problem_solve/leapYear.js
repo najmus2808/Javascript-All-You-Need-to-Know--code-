@@ -1,12 +1,9 @@
-function checkLeapYear(year){
-
-    if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
-        console.log("This year is leap year......");
-    }
-    else{
-        console.log("Not a leap year....");
-    }
-
+function checkLeapYear(year) {
+  if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+    console.log("This year is leap year......");
+  } else {
+    console.log("Not a leap year....");
+  }
 }
 
 checkLeapYear(2016);
