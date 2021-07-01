@@ -1,4 +1,4 @@
-var array = [1, 2, 70, 3, 4, 5];
+var array = [34, 1, 2, 70, 3, 4, 5];
 
 // var result = array.reduce(function (acc, current) {
 //     return acc + current
@@ -36,7 +36,7 @@ var min = reduce(
   function (acc, current) {
     return Math.min(acc, current);
   },
-  15
+  array[0]
 );
 
 console.log(sum, max, min);
