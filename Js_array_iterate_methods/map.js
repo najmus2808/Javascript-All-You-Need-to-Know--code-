@@ -7,7 +7,7 @@ The map() method does not change the original array.
 ***/
 
 const numbers = [45, 4, 9, 16, 25];
-]
+
 //Procedure 1
 const result = numbers.map((element, index, array) => element * 2);
 
