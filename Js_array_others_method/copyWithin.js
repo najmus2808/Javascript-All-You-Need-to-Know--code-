@@ -16,3 +16,9 @@ const fruits = ["Banana", "Orange", "Apple", "Apricot", "Mango", "Dates"];
 const newFruits = fruits.copyWithin(2, 0);
 
 console.log(newFruits);
+
+const friends = ["Sakib", "Rakib", "Fakhrul", "Fahim", "Arpan", "Jubair"];
+
+const newFriends = friends.copyWithin(3, 1, 2);
+
+console.log(newFriends);
