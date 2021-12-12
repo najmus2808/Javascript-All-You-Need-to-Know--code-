@@ -1,7 +1,7 @@
 const makeAddress = (addressArray) => {
   let result = "";
   for (let i = 0; i < addressArray.length; i++) {
-    if (addressArray[i] !== "") {
+    if (addressArray[i]) {
       result = result + addressArray[i] + ", ";
     }
   }
