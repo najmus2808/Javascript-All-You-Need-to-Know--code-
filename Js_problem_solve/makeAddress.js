@@ -10,6 +10,7 @@ const makeAddress = (addressArray) => {
 };
 
 console.log(makeAddress(["Naogaon", "Rajshahi", "Dhaka", "Bangladesh"]));
+console.log(makeAddress(["Mohadevpur", "Naogaon", "Rajshahi", "Dhaka", "Bangladesh"]));
 console.log(makeAddress(["Naogaon", "", "Dhaka", "Bangladesh"]));
 console.log(makeAddress(["", "Rajshahi", "", "Bangladesh"]));
 console.log("Return Empty string", makeAddress(["", "", "", ""]));
